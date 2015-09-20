@@ -1,0 +1,26 @@
+{
+  "name": "okyo_maker",
+  "version": "0.0.1",
+  "description": "Let's make okyo and recite!",
+  "main": "index.js",
+  "bin": "./index.js",
+  "dependencies": {
+    "joyo-kanji": "0.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tako-black/okyo_maker.git"
+  },
+  "keywords": [
+    "okyo"
+  ],
+  "author": "Kohei TAKATA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tako-black/okyo_maker/issues"
+  },
+  "homepage": "https://github.com/tako-black/okyo_maker"
+}
