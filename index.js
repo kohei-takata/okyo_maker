@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var kanjis = require('joyo-kanji');
 var size = process.argv[2];
 
