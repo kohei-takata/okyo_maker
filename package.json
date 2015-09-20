@@ -1,6 +1,6 @@
 {
   "name": "okyo_maker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Let's make okyo and recite!",
   "main": "index.js",
   "bin": "./index.js",
