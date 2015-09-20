@@ -3,6 +3,7 @@ Let's make okyo and recite!
 
 # Usage
 `npm i -g okyo_maker`
+
 `okyo_maker SIZE_OF_OKYO`
 
 
