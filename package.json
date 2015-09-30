@@ -2,13 +2,20 @@
   "name": "okyo_maker",
   "version": "0.0.7",
   "description": "Let's make okyo and recite!",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "bin": "lib/index.js",
   "dependencies": {
     "joyo-kanji": "0.2.1"
   },
   "scripts": {
+    "build": "babel src --out-dir lib  --source-maps-inline",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel": "5.8.23"
   },
   "repository": {
     "type": "git",
