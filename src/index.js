@@ -1,18 +1,19 @@
 #!/usr/bin/env node
 
-var kanjis = require('joyo-kanji');
+const kanjis = require('joyo-kanji');
 
 if(process.argv.length !== 3 || !isNumber(process.argv[2])) {
-  return console.log('Invalid argument. Please pass a number.');
+  console.log('Invalid argument. Please pass a number.');
+  process.exit(1);
 }
 
-var size = process.argv[2];
+const size = process.argv[2];
 
-var outputKanjiList = '';
+let outputKanjiList = '';
 
-for (var i = 0; i < size; i++) {
-  var n = Math.floor(Math.random() * kanjis.kanji.length);
-  var kanji = kanjis.kanji[n];
+for (let i = 0; i < size; i++) {
+  let n = Math.floor(Math.random() * kanjis.kanji.length);
+  let kanji = kanjis.kanji[n];
 
   if (i % 5 === 0){
     outputKanjiList += ' ';
