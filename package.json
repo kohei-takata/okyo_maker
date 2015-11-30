@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tako-black/okyo_maker.git"
+    "url": "https://github.com/kohei-takata/okyo_maker.git"
   },
   "keywords": [
     "okyo"
@@ -27,7 +27,7 @@
   "author": "Kohei TAKATA",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tako-black/okyo_maker/issues"
+    "url": "https://github.com/kohei-takata/okyo_maker/issues"
   },
-  "homepage": "https://github.com/tako-black/okyo_maker"
+  "homepage": "https://github.com/kohei-takata/okyo_maker"
 }
